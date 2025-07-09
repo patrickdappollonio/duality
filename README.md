@@ -1,5 +1,7 @@
 # `duality`: run multiple commands in parallel
 
+[![Github Downloads](https://img.shields.io/github/downloads/patrickdappollonio/duality/total?color=orange&label=github%20downloads)](https://github.com/patrickdappollonio/duality/releases)
+
 `duality` is a Go program that allows you to run multiple commands in parallel and see their output interleaved in real-time.
 
 When `duality` starts, each command gets a unique ID and its output is prefixed with that ID plus whether the output was rendered to `stdout` or `stderr` in the format `[ID][stdout|stderr] log message`.
